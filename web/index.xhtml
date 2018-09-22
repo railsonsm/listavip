@@ -6,6 +6,15 @@
         <title>Facelet Title</title>
     </h:head>
     <h:body>
+        <h:form>
+            <h:inputText  value="#{inicioBean.teste}"/> <br />
+            <h:outputText value="#{inicioBean.output}" />
+            <h:commandButton 
+                actionListener="#{inicioBean.mudeiUmValorProInput()}"  
+                value="Clique aqui" />
+            
+        </h:form>
+       
         Hello from Facelets
     </h:body>
 </html>
