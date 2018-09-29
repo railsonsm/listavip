@@ -11,11 +11,13 @@ public class InicioBean {
        
     
     public String retorneiUmValorProInput(){
+        System.out.println("bean.InicioBean.retorneiUmValorProInput()");
         String novoValor = this.teste = "Novo Valor";   
         return novoValor;
     }
     
     public void mudeiUmValorProInput(){
+        System.out.println("bean.InicioBean.retorneiUmValorProInput()");
         this.output = this.teste;   
     }
     
